@@ -1,0 +1,4 @@
+<?php
+$result=$_get['data'];
+echo $result;
+?>

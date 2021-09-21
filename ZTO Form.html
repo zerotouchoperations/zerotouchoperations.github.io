@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.dropdown-content
+{
+   height: 120px;
+   overflow: auto;
+} 
+
+img.avatar {
+    width: 10%;
+    border-radius: 40%;
+}
+.imgcontainer {
+		text-align: center;
+		margin: 24px 0 12px 0;
+	}
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  font-size: 30px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+</head>
+<body>
+
+<img src=
+    "https://upload.wikimedia.org/wikipedia/commons/8/88/DXC_Logo_2021_Purple_Black.png"
+            alt="Avatar" class="avatar">
+    
+<div class="imgcontainer">
+<h1>ZTO - Zero Touch Operation</h1>
+<br></br>
+<h2>Select the Account Name</h2>
+
+<div class="dropdown">
+  <button class="dropbtn"><b>Accounts</b></button>
+  <div class="dropdown-content">
+    <a href="middle.html"><b>Topps Market</b></a>
+    <a href="brascam.html"><b>Braskem</b></a>
+    <a href="telenor.html"><b>RJRT</b></a>
+
+  </div>
+</div>
+</div>
+</body>
+</html>

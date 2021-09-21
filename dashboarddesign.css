@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html::before
+{
+content: "";
+background: url("https://th.bing.com/th/id/R.f1cdb9faef00282c678098e3984c2df5?rik=rNS4sFiH04yiMA&riu=http%3a%2f%2fwonderfulengineering.com%2fwp-content%2fuploads%2f2013%2f11%2frobot-wallpaper-62.jpg&ehk=4UXwVXi%2fCbUoMiQo0osqcSyw7l7FwKLWCHdlhWaTnA0%3d&risl=&pid=ImgRaw&r=0") no-repeat;
+background-size: cover;
+position: absolute;
+opacity: 0.43;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+.sidebar{
+position: fixed;
+top: 0;
+left: 0;
+height: 100%;
+width: 260px;
+background: #11101d;
+}
+
+.sidebar .navlinks{
+background: #000080;
+height: 100%;
+padding-top: 30px;
+}
+
+
+.sidebar .navlinks li{
+position: relative;
+list-style:none;
+transition: all 0.4s ease;
+}
+
+
+.sidebar .navlinks li:hover{
+background: #1d1b31;
+}
+
+
+.sidebar .navlinks li .icon-link{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.sidebar .navlinks li i{
+height: 50px:
+min-width: 78px;
+text-align: center;
+line-height: 50px;
+color: #fff;
+font-size: 20px;
+}
+
+.sidebar .navlinks li a{
+display: flex;
+align-items: center;
+text-decoration: none;
+}
+
+.sidebar .navlinks li a .link_name{
+font-size: 18px;
+font-weight: 400;
+color: #fff;
+}
+
+
+.sidebar .navlinks li .submenu{
+padding: 6px 6px 14px 80px;
+margin-top: -10px;
+background: #1d1b31;
+}
+
+.sidebar .navlinks li .submenu a{
+color: #fff;
+font-size: 15px;
+padding: 5px 0;
+white-space: nowrap;
+opacity: 0.6;
+transition: all 0.3 ease
+}
+
+
+.sidebar .navlinks li .submenu a:hover{
+opacity: 1;
+}
+
+.sidebar .navlinks li .submenu{
+position: absolute;
+left: 100%;
+top: -10px;
+margin-top: 0;
+padding: 10px 20px;
+border-radius: 0 6px 6px 0;
+transition: all 0.4s ease;
+opacity: 0;
+pointer-events: none;
+
+}
+
+.sidebar .navlinks li:hover .submenu{
+top: 0;
+opacity: 1;
+pointer-events: auto;
+}
+
+.sidebar .navlinks li .submenu .link_name{
+display: none;
+}
+
+.sidebar .navlinks li .submenu .link_name{
+font-size: 18px;
+opacity: 1;
+display: block;
+}
+
+
+.sidebar .navlinks li .submenu blank{
+opacity: 1;
+pointer-events: auto;
+padding: 3px 20px 6px 16px;
+}
+
+.sidebar .navlinks li .submenu blank{
+top: 50%;
+transform: translateY(-50%);
+}

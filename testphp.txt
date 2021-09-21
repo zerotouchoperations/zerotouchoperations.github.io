@@ -1,0 +1,16 @@
+<?php       
+$userid = "bhaskar";
+$userid=stripcslashes($userid);
+
+	<script>
+	var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+	if($userid.match(mailformat))
+	{
+	alert("right");
+	}
+	else
+	{
+	alert("wrong");
+	}
+	</script>
+?>  

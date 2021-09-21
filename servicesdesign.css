@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html::before
+{
+content: "";
+background: url("https://th.bing.com/th/id/R.f1cdb9faef00282c678098e3984c2df5?rik=rNS4sFiH04yiMA&riu=http%3a%2f%2fwonderfulengineering.com%2fwp-content%2fuploads%2f2013%2f11%2frobot-wallpaper-62.jpg&ehk=4UXwVXi%2fCbUoMiQo0osqcSyw7l7FwKLWCHdlhWaTnA0%3d&risl=&pid=ImgRaw&r=0") no-repeat;
+background-size: cover;
+position: absolute;
+opacity: 0.43;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+html{
+  place-items: center;
+}
+
+.wrapper .logo{
+  position:  relative;
+ height: 150px;
+  width: 200px;
+}
+
+.logo img{
+  height: 100%;
+  width: 165%;
+  bottom: 5%;
+  object-fit: contain;
+}
+
