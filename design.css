@@ -35,14 +35,13 @@ position: relative;
   justify-content: space-between;
 }
   header nav .logo{
-  height: 100px;
-  width: 400px;
+  height: 100%;
+  width: 10%;
 
 }
 .logo img{
-  height: 60%;
-  width: 80%;
-  object-fit: contain;
+  height: -500%;
+  width: 120%;
 }
 nav .menu{
   display: flex;
