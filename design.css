@@ -50,7 +50,8 @@ nav .menu li{
 position: relative;
   list-style: none;
   margin: 10px;
-  left: 200px;
+  left: 350px;
+  bottom: 30px;
 }
 nav .menu a{
   color: #2c3e50;
