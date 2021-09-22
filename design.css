@@ -40,8 +40,9 @@ position: relative;
 
 }
 .logo img{
-  height: 500%;
+  height: -500%;
   width: 120%;
+  
 }
 nav .menu{
   display: flex;
@@ -50,7 +51,7 @@ nav .menu li{
 position: relative;
   list-style: none;
   margin: 10px;
-  left: 80px;
+  left: 90px;
   bottom: 30px;
 }
 nav .menu a{
